@@ -9,6 +9,7 @@
 #let col5 = gray
 #let green = col2
 
+// Some hours I would like to see on the side
 #let horas = (
  "7:30",
  "9:30",
@@ -24,8 +25,13 @@
 )
 
 #schedule(day_names: day_names_es, color: col2, (
+  // The day of the week
+  //    v
   event(1, "7:30", "10:30", col1)[Activity One],
   event(1, "10:30", "12:30", col3)[Funnn!!],
+
+  // The text you want been shown
+  //                               v
   event(1, "20:00", "22:00", col3)[Ñ],
 
   //       Start     End
